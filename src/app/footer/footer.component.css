@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    justify-content:space-between;
+    background:linear-gradient(to right,#b3e17f,#c5e99d);
+    border: 1px solid black;  
+}
+a{
+    text-decoration: none;
+    color: black;
+}

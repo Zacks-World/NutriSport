@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SportComponent } from './sport/sport.component';
-import { NutritionComponent } from './nutrition/nutrition.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +14,11 @@ import { NutritionComponent } from './nutrition/nutrition.component';
     NavbarComponent,
     FooterComponent,
     SportComponent,
-    NutritionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration()

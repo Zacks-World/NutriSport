@@ -1,5 +1,7 @@
 .navbar{
     background:linear-gradient(to right,#b3e17f,#c5e99d);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
    
 }
 @font-face{

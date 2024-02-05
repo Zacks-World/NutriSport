@@ -1,56 +1,58 @@
 
-<div class="container-fluid">
+<div class="container">
     <h1 class="text-center  mx-0 px-0">Reserver une seance</h1>
-    <form align="center" style="text-align: center;border-radius: 20px;" class="shadow container">
-        <legend>Reservation</legend>
-        <div class="row justify-content-center mb-3">
-            <div class="col-3">
-                <label>Nom:</label>
+    <div class="row border-5">
+    <form align="center" style="text-align: center;" class="shadow col-5 w-50 ">
+        <div class="container">
+        <legend>RESERVATION</legend>
+        <div class="row justify-content-center ">
+            <div class="col-4">
+                <label>Nom: </label>
                 <input type="text" name="" id="" placeholder="Nom" required>
             </div>
-            <div class="col-3">
-                <label>Prenom:</label>
+            <div class="col-4">
+                <label>Prenom : </label>
                 <input type="text" name="" id="" placeholder="Prenom" required>
             </div>
         </div>
         <label>Type de corps:</label>
         <br>
         <div class="row justify-content-center mb-3">
-            <div class="col-2">
+            <div class="col-4 p-2">
                 <input type="radio" name="corps" id="ecto" value="ectomorphe" required>
                 <label for="ecto"><img src="/assets/Ectomorph.jpg" width="200" height="200" style="border-radius: 10px;"></label>
             </div>
-            <div class="col-2" >
+            <div class="col-4 p-2" >
                 <input type="radio" name="corps" id="meso" value="mesomorphe" required>
                 <label for="meso"><img src="/assets/mesomorph.jpg" width="200" height="200" style="border-radius:10px;"></label>
             </div>
-            <div class="col-2">
+            <div class="col-4 p-2">
                 <input type="radio" name="corps" id="endo" value="endomorphe" required>
                 <label for="endo"><img src="/assets/endomorph.jpg" width="200" height="200" style="border-radius:10px;"></label>
             </div>
         </div>
         <div class="row justify-content-center mb-3">
-            <div class="col-3">
+            <div class="col-4">
                 <label for="">Poids:</label>
                 <input type="number" name="poids" placeholder="Poids(Kg)" step="0.5"  min="0">
             </div>
-            <div class="col-3">
+            <div class="col-4">
                 <label>Hauteur:</label>
                 <input type="number" name="hauteur" placeholder="Hauteur(Cm)" step="0.5" min="0">
             </div>
         </div>
         <div class="row justify-content-center mb-3">
-            <div class="col-3">
+            <div class="col-4">
                 <label for="">Age:</label>
                 <input type="number" name="Age" placeholder="Age" min="0">
             </div>
-            <div class="col-3">
+            <div class="col-4">
                 <label>Tel:</label>
                 <input type="tel" name="Tel" placeholder="Telephone">
             </div>
         </div>
         <div class="row justify-content-center mb-3">
-            <div class="col-3">
+            <div class="col-5">
                 <label for="">Programme d'entrainement actuelle:</label>
                 <select>
                     <option value="None">Aucun</option>
@@ -66,8 +68,13 @@
         <div>
             <textarea name="" id="" cols="50" rows="3"></textarea>
         </div>
-        <input type="submit" value="Reserver" class="btn btn-secondary">
+        <input type="submit" value="Reserver" class="btn btn-reserver mb-3">
+        </div>
     </form>
+    <div class="col-lg-6 d-flex align-items-stretch px-0 shadow build">
+        <div  class="info-wrap w-100 p-5 img-fluid col-lg-6 d-flex align-items-stretch build" style="background-image: url(assets/beat.jpg);background-size: 650px 810px;">
+    </div>
+    </div>
     <h1 class="text-center my-5 px-0">Serie des exercices</h1>
     <div class="container">
         <div class="row my-5">

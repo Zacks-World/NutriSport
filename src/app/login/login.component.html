@@ -1,0 +1,25 @@
+<style>
+  .text-dark.font-italic {
+    font-family: 'Georgia', serif;
+    font-style: italic;  }
+</style>
+<div class="container text-center ">
+  <div class="col-md-6 offset-md-3 mt-3 mb-3">
+    <div class="card bg-dark text-success">
+         <div class="card-header">Authentification</div>
+         <div class="card-body">
+            <form [formGroup]="userFormGroup" (ngSubmit)="handleLogin()">
+              <div class="mb-3">
+                    <label class="form-label">Username</label>
+                    <input type="text" formControlName="username" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" formControlName="password" class="form-control">
+          </div>
+          <button class="btn btn-primary bg-success border-success" type="submit">Login</button>
+            </form>
+         </div>
+    </div>
+  </div>
+</div>

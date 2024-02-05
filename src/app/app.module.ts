@@ -7,6 +7,12 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SportComponent } from './sport/sport.component';
 import { NutritionComponent } from './nutrition/nutrition.component';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AcceuilComponent } from './acceuil/acceuil.component';
+import { MenueComponent } from './menue/menue.component';
+import { AuthentificationComponent } from './authentification/authentification.component';
+
 
 @NgModule({
   declarations: [
@@ -14,15 +20,21 @@ import { NutritionComponent } from './nutrition/nutrition.component';
     NavbarComponent,
     FooterComponent,
     SportComponent,
-    NutritionComponent
+    NutritionComponent,
+    LoginComponent,
+    AcceuilComponent,
+    MenueComponent,
+    AuthentificationComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration()
   ],
   bootstrap: [AppComponent]
-})
+}
+)
 export class AppModule { }

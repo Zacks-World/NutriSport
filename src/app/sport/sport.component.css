@@ -9,9 +9,47 @@
 }
 textarea {
     resize: none;
-    overflow: hidden;
-  }
+    border-radius:1rem ;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 0.5rem;
 
+  }
+select
+{
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-style: dashed;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+input{
+    border-radius: 1rem;
+    border-style: dashed;
+    padding: 0.5rem;
+}
+input[type=submit]
+{
+    border-style: solid;
+}
+.build{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius:20px ;
+}
+form{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px ;
+}
 
 
   

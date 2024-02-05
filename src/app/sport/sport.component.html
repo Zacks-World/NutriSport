@@ -1,1 +1,151 @@
-<p>sport works!</p>
+
+<div class="container-fluid">
+    <h1 class="text-center  mx-0 px-0">Reserver une seance</h1>
+    <form align="center" style="text-align: center;border-radius: 20px;" class="shadow container">
+        <legend>Reservation</legend>
+        <div class="row justify-content-center mb-3">
+            <div class="col-3">
+                <label>Nom:</label>
+                <input type="text" name="" id="" placeholder="Nom" required>
+            </div>
+            <div class="col-3">
+                <label>Prenom:</label>
+                <input type="text" name="" id="" placeholder="Prenom" required>
+            </div>
+        </div>
+        <label>Type de corps:</label>
+        <br>
+        <div class="row justify-content-center mb-3">
+            <div class="col-2">
+                <input type="radio" name="corps" id="ecto" value="ectomorphe" required>
+                <label for="ecto"><img src="/assets/Ectomorph.jpg" width="200" height="200" style="border-radius: 10px;"></label>
+            </div>
+            <div class="col-2" >
+                <input type="radio" name="corps" id="meso" value="mesomorphe" required>
+                <label for="meso"><img src="/assets/mesomorph.jpg" width="200" height="200" style="border-radius:10px;"></label>
+            </div>
+            <div class="col-2">
+                <input type="radio" name="corps" id="endo" value="endomorphe" required>
+                <label for="endo"><img src="/assets/endomorph.jpg" width="200" height="200" style="border-radius:10px;"></label>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-3">
+                <label for="">Poids:</label>
+                <input type="number" name="poids" placeholder="Poids(Kg)" step="0.5"  min="0">
+            </div>
+            <div class="col-3">
+                <label>Hauteur:</label>
+                <input type="number" name="hauteur" placeholder="Hauteur(Cm)" step="0.5" min="0">
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-3">
+                <label for="">Age:</label>
+                <input type="number" name="Age" placeholder="Age" min="0">
+            </div>
+            <div class="col-3">
+                <label>Tel:</label>
+                <input type="tel" name="Tel" placeholder="Telephone">
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-3">
+                <label for="">Programme d'entrainement actuelle:</label>
+                <select>
+                    <option value="None">Aucun</option>
+                    <option value="PPL">PPL</option>
+                    <option value="Arnold Split">Arnlod Split</option>
+                    <option value="FullBody">FullBody</option>
+                    <option value="Upper-Lower">Upper-Lower</option> 
+                </select>
+            </div>
+        </div>
+
+        <label>L'objectif:</label>
+        <div>
+            <textarea name="" id="" cols="50" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Reserver" class="btn btn-secondary">
+    </form>
+    <h1 class="text-center my-5 px-0">Serie des exercices</h1>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/squat-sauté.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Squat-Sauté</h5>
+                      <p class="card-text">Descendre le poids du corps sur les talons sans décoller les talons du sol. Envoyer les fessiers vers l’arrière et serrer votre sangle abdominale. Lorsque vous remontez, faites un saut de manière explosive puis atterrir en fléchissant les genoux pour un meilleur amorti.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/gainage-face.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gainage-Face</h5>
+                      <p class="card-text">Se placer à l’horizontale en appui sur les avant-bras et ne pas creuser le bas du dos. Les coudes doivent être à l’aplomb des épaules. Rentrer le ventre. Poser les genoux au sol sans rompre la tension abdominale si c’est trop difficile.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/Chaise.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chaise dos au mur</h5>
+                      <p class="card-text">Placer les jambes à 90° et rentrer le ventre. Placer vos mains sur vos épaules pour ne pas vous aider.<br><strong>AVANTAGES</strong>:du renforcement musculaire pur et dur pour booster votre résistance.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/mountain-cibler.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mountain-Cibler</h5>
+                      <p class="card-text">Ramener les genoux vers la poitrine en alternance de manière dynamique. Un seul pied doit toucher le sol à la fois. Garder le dos droit et la sangle abdominale bien contractée (le ventre rentré).</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/crunch-spider-man.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Crunch-Spiderman</h5>
+                      <p class="card-text">En appui sur vos mains, ramener le genou vers l’extérieur du coude en alternant jambe droite et jambe gauche. <br><strong>AVANTAGES:</strong>un renforcement des abdominaux latéraux appelés « obliques » qui sont utilisés lors de tous vos mouvements techniques.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/saut-sur-box.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Saut sur box</h5>
+                      <p class="card-text">Préparez un appui stable à environ 60cm de haut. Faites un squat puis un saut en atterrissant sur la marche tout en fléchissant les genoux. <br><strong>AVANTAGES:</strong>cet exercice améliorera votre explosivité et votre résistance musculaire.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/releve-de-buste.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Crunch</h5>
+                      <p class="card-text">En appui sur le dos, vos lombaires bien plaqués au sol. Relever le buste en soufflant et en rentrant le ventre au maximum. <br><strong>AVANTAGES:</strong>cet exercice renforcera votre sangle abdominale tout en dessinant les fameuses « tablettes de chocolat » !</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="assets/fentes-dynamiques.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fentes dynamiques</h5>
+                      <p class="card-text">Le genou devant ne doit pas dépasser la pointe de pied. Les pieds sont écartés largeur de bassin. <br><strong>AVANTAGES:</strong>cet exercice travaille l’explosivité, le cardio et la stabilité.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+</div>

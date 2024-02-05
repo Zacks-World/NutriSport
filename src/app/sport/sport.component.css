@@ -1,0 +1,22 @@
+#ecto,#meso,#endo
+{
+    display: none;
+}
+
+#ecto:checked + label img,#meso:checked + label img,#endo:checked + label img
+{
+    border: 2px solid green;
+}
+textarea {
+    resize: none;
+    overflow: hidden;
+  }
+
+
+
+  
+  
+
+
+
+  

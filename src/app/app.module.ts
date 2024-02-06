@@ -14,14 +14,14 @@ import { MenueComponent } from './menue/menue.component';
 import { AuthentificationComponent } from './authentification/authentification.component';
 
 @NgModule({
-  declarations: [
-    NavbarComponent,
-    FooterComponent,
-    LoginComponent,
-    AcceuilComponent,
-    MenueComponent,
-    AuthentificationComponent
-  ],
+    declarations: [
+      NavbarComponent,
+      FooterComponent,
+      LoginComponent,
+      AcceuilComponent,
+      MenueComponent,
+      AuthentificationComponent
+    ],
     imports: [
       BrowserModule,
       AppRoutingModule,
@@ -29,9 +29,14 @@ import { AuthentificationComponent } from './authentification/authentification.c
       NutritionComponent,
       AppComponent,
     ],
-  providers: [
-    provideClientHydration()
-  ],
-}
+    providers: [
+      provideClientHydration()
+    ],
+    exports: [
+      NavbarComponent,
+      AuthentificationComponent,
+      AuthentificationComponent
+    ]
+  }
 )
 export class AppModule { }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, NgForm} from "@angular/forms";
 import {NgForOf} from "@angular/common";
 
 @Component({
@@ -80,5 +80,11 @@ export class NutritionComponent {
 
   submitted = false;
 
-  onSubmit() { this.submitted = true; }
-}
+  onSubmit(form: NgForm){
+
+    // Set submitted to true to indicate form submission
+    this.submitted = true;
+    // Now you can access user data from this.userData
+    console.log('Submitted Data:', form.value);
+    // Here, you can perform further actions such as sending the data to a server
+  }}

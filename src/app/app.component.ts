@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import {NutritionComponent} from "./nutrition/nutrition.component";
 import {AcceuilComponent} from "./acceuil/acceuil.component";
+import {AppModule} from "./app.module";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: true,
   imports: [
-    NutritionComponent
+    NutritionComponent,
+    AppModule
   ],
   styleUrl: './app.component.css'
 })

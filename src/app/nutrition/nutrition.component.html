@@ -95,7 +95,7 @@
           <div class="col-md-8">
             <h1>Bilan nutritionnel </h1>
 
-            <form #userForm="ngForm">
+            <form #nutritionForm="ngForm" (ngSubmit)="onSubmit(nutritionForm)">
               <!-- Informations personnelles -->
               <div class="form-group">
                 <label>Name:</label>
@@ -178,10 +178,7 @@
               <br>
 
 
-              <button  class="btn btn2 btn-primary" type="submit">Submit form </button>
-
-
-
+              <button  class="btn btn2 btn-primary" type="submit" [disabled]="!nutritionForm.form.valid">Submit</button>
 
             </form>
           </div>
@@ -204,7 +201,7 @@
           pour celles et ceux qui souhaitent prendre soin de leur santé au global. A tout de suite.</p>
 
       </div>
-      <form method="get" action="news.php">
+      <form #nutritionnews="ngForm" (ngSubmit)="onSubmit(nutritionnews)">
         <input type="text" value="Votre prenom" class="input1"><br>
         <input type="text" value="Votre e-mail" class="input1"><br>
         <input type="submit" value="C'est parti !" class="submit1">

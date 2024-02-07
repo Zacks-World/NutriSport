@@ -50,6 +50,24 @@ form{
     border-bottom-left-radius: 20px;
     border-top-left-radius:20px ;
 }
+.card
+{
+    transition :all 0.3s;
+}
+.card:hover
+{
+    transform :scale(1.05);
+    box-shadow: 26px 32px 22px -18px rgba(0,0,0,0.42);
+}
+.animation
+{
+    transition :all 0.3s;
+}
+.animation:hover
+{
+    transform :scale(1.02);
+}
+
 
 
   

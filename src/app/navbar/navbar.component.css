@@ -1,12 +1,9 @@
 .navbar{
     background:linear-gradient(to right,#b3e17f,#c5e99d);
-<<<<<<< HEAD
     width: 1300px;
-=======
     border-end-end-radius: 20px;
     border-end-start-radius: 20px;
->>>>>>> 9149ea36e7fb4bdf116274f733dc746fa27822e8
-   
+    overflow-x: hidden; 
 }
 @font-face{
     font-family: "Regular Brush";

@@ -1,8 +1,9 @@
 .navbar{
     background:linear-gradient(to right,#b3e17f,#c5e99d);
+    width: 1300px;
     border-end-end-radius: 20px;
     border-end-start-radius: 20px;
-   
+    overflow-x: hidden; 
 }
 @font-face{
     font-family: "Regular Brush";
@@ -12,10 +13,8 @@
 {
  font-size: 44px; 
  font-family: "Regular Brush";
-left: 88px;
-position:relative;
- color: rgb(240, 235, 228);
-
+ left: 88px;
+ position:relative;
 }
 .ulnavright{
     margin-left: 920px;
@@ -27,20 +26,21 @@ position:relative;
     font-size: 27px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: var(--bs-nav-link-font-weight);
-    color:  rgb(240, 235, 228);
     font-weight: bold;
     text-decoration: none;
     background: none;
-    margin-left: 20px;
+    padding-right: 1000px;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     border: 4px solid #c5e99d;
     border-radius: 20%;
+  }
+  .navbar.navbar-expand-lg{
+    width: 100%;
   }
 
   .nav-link:hover{
       background-color: white;
       border: 4px solid #c5e99d;
       border-radius: 20%;
-      color:black;
 
   }

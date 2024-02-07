@@ -1,0 +1,28 @@
+.font-italic {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to right, #b3e17f, #c5e99d);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.btn-container {
+    margin-top: 20px;
+}
+
+
+
+.btn.custom-btn.bt {
+    width: 200px;
+    font-weight: bold;
+    background: linear-gradient(to right, #b3e17f, hsl(0, 0%, 0%));
+    color: rgb(203, 203, 188);
+    margin-right: 100px;
+}
+
+img{
+    width:100%;
+    height: 300px;
+    margin-left: 0px;
+}
